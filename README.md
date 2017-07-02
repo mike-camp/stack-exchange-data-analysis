@@ -17,4 +17,11 @@ The goal of this notebook is to create a model which can predict the tags of a q
 
 ## Running the notebook
 
-To run the notebook, you will need python 2.7, along with the packages found in requirements.txt.  You will also need to get a stack exchange API key, which is freely available to use this.  In settings, change the line API_KEY='' to API_KEY='YOUR API KEY HERE'  You will also need to get a stack exchange API key, which is freely available to use this.  In settings, change the line API_KEY='' to API_KEY='YOUR API KEY HERE'.
+To run the notebook, you will need python 2.7, along with the packages found in requirements.txt.  You will also need to get a stack exchange API key, which is freely available to use this.  In settings, change the line API_KEY='' to API_KEY='YOUR API KEY HERE'.   
+
+## Results:
+
+The model was able to correctly predict whether or not a word was tagged/untagged in the comment section with f1 scores of ~.2  The image below shows the f1 scores for classifiers which were trained on one of the datasets: cooking, travel, robotics, or diy, when tested on each one of those datasets.    
+
+![matrix image](/images/rf_f1_scores.png)
+
