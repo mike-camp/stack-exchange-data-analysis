@@ -4,10 +4,11 @@ Stack exchange is a popular message board that allows people to ask questions an
 - travel
 - physics
 - cooking
-- scifi
+- science fiction
+
 Within each board, the questions have a short one sentence title, a longer body explaining the question in depth, and a list of "tags" that allow people to efficiently search for questions.  The tags are provided by the user.  
 
-An example of this from the cooking dataframe would be 
+An example of this from the cooking dataframe would be:
 * Title: How do I get chewy chocolate chip cookies?
 * Content: My chocolate chip cookies are always too crisp.  How can I get chewy cookies, like those of Starbucks?   Thank you to everyone who answered, the biggest impact was to chill and rest the dough, however I also increased the brown sugar ratio and incrased a bit the butter.  Also adding maple syrup helped.  
 * Tags: baking, cookies, texture
